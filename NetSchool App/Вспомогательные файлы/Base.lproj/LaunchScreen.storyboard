@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sc0-xZ-mCQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="rRL-aA-h4u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone-x-launch" translatesAutoresizingMaskIntoConstraints="NO" id="5Kh-hr-QQJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="717"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="ac2-09-AyZ">
+                                <rect key="frame" x="123" y="269" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="I6X-O2-Pth"/>
+                                    <constraint firstAttribute="width" constant="128" id="lMl-Zv-zpf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.42745098039215684" blue="0.14901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ac2-09-AyZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="B7F-V8-7B6"/>
+                            <constraint firstItem="5Kh-hr-QQJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="N6x-NR-lQh"/>
+                            <constraint firstItem="5Kh-hr-QQJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iSb-pM-nc1"/>
+                            <constraint firstAttribute="trailing" secondItem="5Kh-hr-QQJ" secondAttribute="trailing" id="lgL-qT-MEY"/>
+                            <constraint firstItem="rRL-aA-h4u" firstAttribute="top" secondItem="5Kh-hr-QQJ" secondAttribute="bottom" constant="-50" id="nq1-Rx-DoA"/>
+                            <constraint firstItem="ac2-09-AyZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qp1-N6-T7F"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iphone-x-launch" width="375" height="812"/>
+        <image name="launch" width="128" height="128"/>
+    </resources>
+</document>

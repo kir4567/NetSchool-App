@@ -1,0 +1,6 @@
+framework module Pods_NetSchool_App {
+  umbrella header "Pods-NetSchool App-umbrella.h"
+
+  export *
+  module * { export * }
+}

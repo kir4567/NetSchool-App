@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jlx-wA-nG3"/>
+                        <viewControllerLayoutGuide type="bottom" id="41t-l2-Daw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ipad-launch" translatesAutoresizingMaskIntoConstraints="NO" id="6QS-kw-5dX" userLabel="ipad-launch">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="dRm-OH-hxP">
+                                <rect key="frame" x="267" y="401" width="235" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="N9c-D6-686"/>
+                                    <constraint firstAttribute="height" constant="282" id="arM-7F-crc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dRm-OH-hxP" firstAttribute="centerX" secondItem="6QS-kw-5dX" secondAttribute="centerX" id="7PN-wa-ezR"/>
+                            <constraint firstItem="6QS-kw-5dX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="8mW-rM-cS8"/>
+                            <constraint firstItem="6QS-kw-5dX" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="FmW-7W-mA5"/>
+                            <constraint firstItem="6QS-kw-5dX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="dvr-HW-p3j"/>
+                            <constraint firstItem="dRm-OH-hxP" firstAttribute="centerY" secondItem="6QS-kw-5dX" secondAttribute="centerY" id="eaZ-ik-3G6"/>
+                            <constraint firstItem="6QS-kw-5dX" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="l3p-f9-lV9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.34375" y="374.4140625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ipad-launch" width="73" height="101"/>
+        <image name="launch" width="128" height="128"/>
+    </resources>
+</document>

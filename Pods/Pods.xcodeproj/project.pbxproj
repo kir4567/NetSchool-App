@@ -1,0 +1,1207 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05582AA88CD8208768A24D3E31F43FE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */; };
+		0647EF168172677859E87CE3F7209BD6 /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE18829CDD58296CB814B4B6819AE3B /* M13CheckboxAnimationPresets.swift */; };
+		07ADCEDE43C55ABE0385E5BF9A235B92 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 829573FB1803F92C5DD06520F4BB3066 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08115A7F3FDF84EA3A2954F2F4D063D0 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF8F8C450F458DA0FDE52589533358D /* M13Checkbox-dummy.m */; };
+		09AD9729A5871E2CFFE9BF9AE7B0F503 /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C86E94D18A8FD566B82ED0A39F659 /* M13CheckboxFadeManager.swift */; };
+		164492D90D9F4BE698B5560CC9D04BB0 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E584CD3A99FFC35204C2F3A57BA7F5 /* ColorPickerView.swift */; };
+		18AEB1A09B01663BB893C072B2C50C60 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB64A87D17EE9193246DF2E40F9CC291 /* M13Checkbox.swift */; };
+		1A580EB80800B878354E9A528D370A4F /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4583A9C49DDE9E33E189F9E68CF88A40 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B11074106019A56A3AE45D3BABE3FC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD422DCE0E8E42CFB79C7FE153EDA1F /* UIKit.framework */; };
+		1C84DB4C076B1F7CE00C4E1C575B9E78 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD4F0083598B4EF5272DF279D27BEE0 /* M13CheckboxStrokeManager.swift */; };
+		2E59EC0CBEADC0A4D96223F28C1A70FC /* IGColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6A4AC1E0BEBEA9F431A6C9843001DD /* IGColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A59D5F76BED95A273E2E86813243F9 /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC591E737D92CB2979D60E1A9945FF07 /* ColorPickerViewDelegate.swift */; };
+		3E2EB92C4A08A263D460F8F8E9FCEB56 /* Pods-NetSchool App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ABE12E132C4185717F43BFD20D5BE8 /* Pods-NetSchool App-dummy.m */; };
+		44F76A8F1D538319A4C8662947653CF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */; };
+		4A546F04E1743BAEEB6BFC8BA94807CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */; };
+		4DAD3B6DE49227EE1DE35925DB60C70A /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881859D5A1C012A3E4284B23ABACCB48 /* M13CheckboxGestureRecognizer.swift */; };
+		52933055CBE7B3EA7B1FE33D401CD13D /* BTNavigationDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04881E05790A3C418A8000356E319B9C /* BTNavigationDropdownMenu-dummy.m */; };
+		53FCA9CA383DA8F381865015170AFFF8 /* BTNavigationDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DDB25467E0F1F040511D8F1E8FE142A /* BTNavigationDropdownMenu.bundle */; };
+		56BDE88D91B05CCBC797D858D55DB2AA /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEC685B2D3A46C148AB63D93407B1CC /* M13CheckboxPathPresets.swift */; };
+		58B2FE83A2E8D2B398E4BEADE4696CE1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F2AEE821D00A7BA07B1A28F46E6522 /* SystemConfiguration.framework */; };
+		59B2D69FEB598EE4BC4B2E4C66411C68 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED6CB3AA5301A6C7F84629BA41422879 /* ReachabilitySwift-dummy.m */; };
+		5CB18F526AD963708B066C21C33EC968 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8EAF704963E475A51EA332E0503F2 /* UIColor+Extension.swift */; };
+		624089007B1A1CAE786D584797705F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */; };
+		64A444EA056771DFB434F47019B7169E /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE7D41A59D1330951457F85E2133F7 /* M13Checkbox+IB.swift */; };
+		65D990980D4A1AF80E5763D9015CA7BF /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA3FA1EC02A1FAA179F157551456F3 /* M13CheckboxDotManager.swift */; };
+		71273B46AAA5916246E557A873B68D43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */; };
+		75DE514873086DCA9257007B102713F6 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A54E9B1EE689AD636AA21514C975C /* M13CheckboxFlatManager.swift */; };
+		9A772C5322EA7456709F3267951F6587 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A74A8B9BA815B88EEE8E87A1E1A3222 /* CoreGraphics.framework */; };
+		9E48AA0C299274D6CC1CA38CE695816F /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D84D552AB6BD3E2E370F8C78F41AF8B /* M13CheckboxDotPathPresets.swift */; };
+		A6CD284D762F2972162AB3CD8199D0F3 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC9BB755D4806F5E83834A2B0341378 /* M13CheckboxSpiralManager.swift */; };
+		AAFFC123F248BC70983512CA2FFD6CA8 /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669F19BDDE11C7AA1A835248602F551 /* M13CheckboxExpandManager.swift */; };
+		B1A4E24A05CE05D078CA0B0CE021316C /* ColorPickerViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DF17020B0465C449729F6775AAADE /* ColorPickerViewDelegateFlowLayout.swift */; };
+		B1B7FB1D0F8853FFA6F58A3EF48B84AA /* IGColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A89E377C2B4E426DB2E6C78001D53D /* IGColorPicker-dummy.m */; };
+		B3AAE6FDD1C94A708CC3B5041BDB5A27 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57ACB0A5693EF5C662FB872B762155 /* BTNavigationDropdownMenu.swift */; };
+		B706A1205EC59AEB1D287A3A4E8CBB42 /* M13Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12154240D958BAA3F0C774EA466F8C66 /* M13Checkbox.framework */; };
+		B73AB7A869B2D7E8BF1D4A3F08B5610E /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4552A70DC5AD077AEACE78167ABEE376 /* M13CheckboxFillManager.swift */; };
+		C6A6896FC9F74490B86B69DAEC6B3467 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB417991EAEA6055D39F5DA72B28E8 /* M13CheckboxManager.swift */; };
+		CB596D795E073E32DBD933CD4A9FDE42 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01E62213F3C639112D46A157F17B63E /* M13CheckboxBounceManager.swift */; };
+		D58859EFC126DB34AD6C779DC15030A9 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C198FC7034FF0A2E5FBDEF1D80614 /* DefaultValues.swift */; };
+		E151091B6856A3A728D10538DCC38822 /* ColorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60321ECE49242599F00E4934D4F7FD8F /* ColorPickerCell.swift */; };
+		E501ED9B0FC34A2A8F8B1AE20809D629 /* BTNavigationDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B9B6582842F1818AF822234C7B99CF /* BTNavigationDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E518CAF13736E9F68DFC2FB8251CCBD2 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D3282D53821674535D10AF81AEE1C7 /* M13CheckboxSpiralPathPresets.swift */; };
+		EA9F432EC49D1490D1C464767FD6C4FE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC46749617731F387AE62D47B2D1D497 /* Reachability.swift */; };
+		EE2EAFB1DECEA8B441BEE295F82317D3 /* Pods-NetSchool App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF7C8C3B9841C738BCCE4CACAC76FBF /* Pods-NetSchool App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19AE578FCF29E74277797B2F1C93ED43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C08D0A7F8A32C63638D4CA11BD5EC2;
+			remoteInfo = M13Checkbox;
+		};
+		592CB02FFA5249F967E14CE1261435AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A52524E727A97710A55D0EDA55BB7CFE;
+			remoteInfo = BTNavigationDropdownMenu;
+		};
+		69B63D610FD204315A4F995AA2DE4E7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4C08D0A7F8A32C63638D4CA11BD5EC2;
+			remoteInfo = M13Checkbox;
+		};
+		A830D1CB699EC3039C694519864E88BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B77907E120F51E1B8C2D46E916B914;
+			remoteInfo = IGColorPicker;
+		};
+		F4629611AB3F185420970EEB37D465E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1A0F4844C1634D8E66F44F6833325B;
+			remoteInfo = ReachabilitySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042950D40FEC2C02BC4C99058939144E /* BTNavigationDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTNavigationDropdownMenu.modulemap; sourceTree = "<group>"; };
+		04881E05790A3C418A8000356E319B9C /* BTNavigationDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTNavigationDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		0BE18829CDD58296CB814B4B6819AE3B /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
+		0D1902D6191BA6FE08C345B82BB812EB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D84D552AB6BD3E2E370F8C78F41AF8B /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+		0E57ACB0A5693EF5C662FB872B762155 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTNavigationDropdownMenu.swift; path = Source/BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		0EEC685B2D3A46C148AB63D93407B1CC /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
+		0F5DF17020B0465C449729F6775AAADE /* ColorPickerViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegateFlowLayout.swift; path = IGColorPicker/Classes/Protocol/ColorPickerViewDelegateFlowLayout.swift; sourceTree = "<group>"; };
+		100E2000C097A5F08D949556C34A2BC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12154240D958BAA3F0C774EA466F8C66 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		145048B7E8E8F51E06F10091E0112CEA /* BTNavigationDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTNavigationDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16371E2DD59F128E6C1D2AEDB4D384B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9A827574630BFAF555B2F47CD025E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E6A54E9B1EE689AD636AA21514C975C /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
+		2983EB6D930AEEBD20F279FC22BAEA49 /* Pods-NetSchool App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetSchool App.release.xcconfig"; sourceTree = "<group>"; };
+		2A74A8B9BA815B88EEE8E87A1E1A3222 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2DDB25467E0F1F040511D8F1E8FE142A /* BTNavigationDropdownMenu.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BTNavigationDropdownMenu.bundle; path = Source/BTNavigationDropdownMenu.bundle; sourceTree = "<group>"; };
+		35C9D5B75E2A635076F3D52D851293AF /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		390F8FA6BDCB23A0F0730B3C61DFEE98 /* Pods-NetSchool App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetSchool App.debug.xcconfig"; sourceTree = "<group>"; };
+		3AC9BB755D4806F5E83834A2B0341378 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		3BF8F8C450F458DA0FDE52589533358D /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		3CD4F0083598B4EF5272DF279D27BEE0 /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
+		3EF438CC5E023115FE2B88BD9E4E20E2 /* Pods-NetSchool App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NetSchool App-resources.sh"; sourceTree = "<group>"; };
+		408C86E94D18A8FD566B82ED0A39F659 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
+		40D20E40C4B6A5C5A195AF039CE68B27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43E8EAF704963E475A51EA332E0503F2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "IGColorPicker/Classes/Extension/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4552A70DC5AD077AEACE78167ABEE376 /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
+		4583A9C49DDE9E33E189F9E68CF88A40 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		46DA3FA1EC02A1FAA179F157551456F3 /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
+		46EFB867C6FA70BED8B7C7D51021044A /* Pods-NetSchool App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NetSchool App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A193F3B8DCF7F6D5C6D7320F527361C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AD422DCE0E8E42CFB79C7FE153EDA1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5440B6F7A08BDCC2CBA7370BACC982A0 /* IGColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGColorPicker.modulemap; sourceTree = "<group>"; };
+		5583B5E601F51B95E6B558B1CC0520F9 /* IGColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGColorPicker.xcconfig; sourceTree = "<group>"; };
+		5FD2D1DA2E28131C9429C59801748F15 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		60321ECE49242599F00E4934D4F7FD8F /* ColorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerCell.swift; path = IGColorPicker/Classes/View/ColorPickerCell.swift; sourceTree = "<group>"; };
+		6C6A4AC1E0BEBEA9F431A6C9843001DD /* IGColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		79B0C7BCCE8F729C7719C7EFAE3D21EB /* Pods-NetSchool App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NetSchool App.modulemap"; sourceTree = "<group>"; };
+		829573FB1803F92C5DD06520F4BB3066 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		84E584CD3A99FFC35204C2F3A57BA7F5 /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = IGColorPicker/Classes/View/ColorPickerView.swift; sourceTree = "<group>"; };
+		881859D5A1C012A3E4284B23ABACCB48 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		8EF7C8C3B9841C738BCCE4CACAC76FBF /* Pods-NetSchool App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetSchool App-umbrella.h"; sourceTree = "<group>"; };
+		92EB417991EAEA6055D39F5DA72B28E8 /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		932DD3ACF644B3D43BCA99B8FC244270 /* Pods-NetSchool App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NetSchool App-frameworks.sh"; sourceTree = "<group>"; };
+		937A12F90DB90BD66696E4FEC63F6EA9 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3EDFF45F79CDE7A050C14DCCE2375C2 /* BTNavigationDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTNavigationDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		A40C15DB2CA63FB5941103BEF17E7CAF /* Pods_NetSchool_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetSchool_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A669F19BDDE11C7AA1A835248602F551 /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
+		A8D3282D53821674535D10AF81AEE1C7 /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		AB64A87D17EE9193246DF2E40F9CC291 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		AC46749617731F387AE62D47B2D1D497 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		AE9EDA1366D0079C9171B98D27CF34D8 /* IGColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IGColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B129EB7855D175ABCD99761799972289 /* BTNavigationDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTNavigationDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		B2A89E377C2B4E426DB2E6C78001D53D /* IGColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGColorPicker-dummy.m"; sourceTree = "<group>"; };
+		B6F2AEE821D00A7BA07B1A28F46E6522 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BBC27B487359B2ED2C38692B49C82D0F /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67C198FC7034FF0A2E5FBDEF1D80614 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = IGColorPicker/Classes/DefaultValues.swift; sourceTree = "<group>"; };
+		D01E62213F3C639112D46A157F17B63E /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
+		DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1BB265AB6C1FF808FBF86C68ABACE6A /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		E343F90FC8DA71F2E70142B160601488 /* Pods-NetSchool App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetSchool App-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7ABE12E132C4185717F43BFD20D5BE8 /* Pods-NetSchool App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NetSchool App-dummy.m"; sourceTree = "<group>"; };
+		E8CE7D41A59D1330951457F85E2133F7 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		EC4D882D5A0C2EFB64B0B5F45B1908F2 /* IGColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		ED6CB3AA5301A6C7F84629BA41422879 /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		F292F03578EC2AD7BAD8ECBDFE72E63B /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		F7871C14A289DDA3FF9D203C0C2CE558 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		F8B9B6582842F1818AF822234C7B99CF /* BTNavigationDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTNavigationDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		FC591E737D92CB2979D60E1A9945FF07 /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegate.swift; path = IGColorPicker/Classes/Protocol/ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA28A4CC76082D6800F2919930F21B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05582AA88CD8208768A24D3E31F43FE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F47531D4C28F9744000CFB49CC5DB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71273B46AAA5916246E557A873B68D43 /* Foundation.framework in Frameworks */,
+				B706A1205EC59AEB1D287A3A4E8CBB42 /* M13Checkbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B5A66D3149FAA4FA9924C6CF70F674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624089007B1A1CAE786D584797705F3E /* Foundation.framework in Frameworks */,
+				58B2FE83A2E8D2B398E4BEADE4696CE1 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82AAFAFF35A772B23FE3CEB045C05095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A772C5322EA7456709F3267951F6587 /* CoreGraphics.framework in Frameworks */,
+				4A546F04E1743BAEEB6BFC8BA94807CB /* Foundation.framework in Frameworks */,
+				1B11074106019A56A3AE45D3BABE3FC3 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE110F6C6ADF745EA2FBEB55ECF12C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F76A8F1D538319A4C8662947653CF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F9E16604C478BD6E42BA044490BAC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16371E2DD59F128E6C1D2AEDB4D384B0 /* Info.plist */,
+				5FD2D1DA2E28131C9429C59801748F15 /* ReachabilitySwift.modulemap */,
+				F7871C14A289DDA3FF9D203C0C2CE558 /* ReachabilitySwift.xcconfig */,
+				ED6CB3AA5301A6C7F84629BA41422879 /* ReachabilitySwift-dummy.m */,
+				937A12F90DB90BD66696E4FEC63F6EA9 /* ReachabilitySwift-prefix.pch */,
+				829573FB1803F92C5DD06520F4BB3066 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		09C78E0463B7416628836AF712094DCE /* Pods-NetSchool App */ = {
+			isa = PBXGroup;
+			children = (
+				40D20E40C4B6A5C5A195AF039CE68B27 /* Info.plist */,
+				79B0C7BCCE8F729C7719C7EFAE3D21EB /* Pods-NetSchool App.modulemap */,
+				46EFB867C6FA70BED8B7C7D51021044A /* Pods-NetSchool App-acknowledgements.markdown */,
+				E343F90FC8DA71F2E70142B160601488 /* Pods-NetSchool App-acknowledgements.plist */,
+				E7ABE12E132C4185717F43BFD20D5BE8 /* Pods-NetSchool App-dummy.m */,
+				932DD3ACF644B3D43BCA99B8FC244270 /* Pods-NetSchool App-frameworks.sh */,
+				3EF438CC5E023115FE2B88BD9E4E20E2 /* Pods-NetSchool App-resources.sh */,
+				8EF7C8C3B9841C738BCCE4CACAC76FBF /* Pods-NetSchool App-umbrella.h */,
+				390F8FA6BDCB23A0F0730B3C61DFEE98 /* Pods-NetSchool App.debug.xcconfig */,
+				2983EB6D930AEEBD20F279FC22BAEA49 /* Pods-NetSchool App.release.xcconfig */,
+			);
+			name = "Pods-NetSchool App";
+			path = "Target Support Files/Pods-NetSchool App";
+			sourceTree = "<group>";
+		};
+		4CF86D283B559D9617373B307BC6F27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145048B7E8E8F51E06F10091E0112CEA /* BTNavigationDropdownMenu.framework */,
+				AE9EDA1366D0079C9171B98D27CF34D8 /* IGColorPicker.framework */,
+				BBC27B487359B2ED2C38692B49C82D0F /* M13Checkbox.framework */,
+				A40C15DB2CA63FB5941103BEF17E7CAF /* Pods_NetSchool_App.framework */,
+				0D1902D6191BA6FE08C345B82BB812EB /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BEDAD3609EFE5D2AA001ECE45590EF7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DDB25467E0F1F040511D8F1E8FE142A /* BTNavigationDropdownMenu.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		673F3AA7948AD3F00A3993B79EBD6A38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C9A827574630BFAF555B2F47CD025E1 /* Info.plist */,
+				35C9D5B75E2A635076F3D52D851293AF /* M13Checkbox.modulemap */,
+				F292F03578EC2AD7BAD8ECBDFE72E63B /* M13Checkbox.xcconfig */,
+				3BF8F8C450F458DA0FDE52589533358D /* M13Checkbox-dummy.m */,
+				E1BB265AB6C1FF808FBF86C68ABACE6A /* M13Checkbox-prefix.pch */,
+				4583A9C49DDE9E33E189F9E68CF88A40 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AC809BFD86B58002413EC416EEDF172E /* Frameworks */,
+				C494D7680D293A255B5E8DEB306B6A23 /* Pods */,
+				4CF86D283B559D9617373B307BC6F27F /* Products */,
+				C13DEB910670AAC6423A9D8572F28D9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8788A9D0BEF4DAF1C6B037E33CEFC076 /* IGColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				60321ECE49242599F00E4934D4F7FD8F /* ColorPickerCell.swift */,
+				84E584CD3A99FFC35204C2F3A57BA7F5 /* ColorPickerView.swift */,
+				FC591E737D92CB2979D60E1A9945FF07 /* ColorPickerViewDelegate.swift */,
+				0F5DF17020B0465C449729F6775AAADE /* ColorPickerViewDelegateFlowLayout.swift */,
+				C67C198FC7034FF0A2E5FBDEF1D80614 /* DefaultValues.swift */,
+				43E8EAF704963E475A51EA332E0503F2 /* UIColor+Extension.swift */,
+				E3FB04494F858A4311EF854B3F121B26 /* Support Files */,
+			);
+			path = IGColorPicker;
+			sourceTree = "<group>";
+		};
+		967DC02F9C4CEB6957090CEBF95DD3A9 /* BTNavigationDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0E57ACB0A5693EF5C662FB872B762155 /* BTNavigationDropdownMenu.swift */,
+				5BEDAD3609EFE5D2AA001ECE45590EF7 /* Resources */,
+				D72A386FAA5285B67E3D1D75B7C813E4 /* Support Files */,
+			);
+			path = BTNavigationDropdownMenu;
+			sourceTree = "<group>";
+		};
+		AC809BFD86B58002413EC416EEDF172E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12154240D958BAA3F0C774EA466F8C66 /* M13Checkbox.framework */,
+				D09ADB16F5B1C83C5502CD9BFB613F77 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC2839E0BFC52B1B53374BBBDE329F63 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				AB64A87D17EE9193246DF2E40F9CC291 /* M13Checkbox.swift */,
+				E8CE7D41A59D1330951457F85E2133F7 /* M13Checkbox+IB.swift */,
+				0BE18829CDD58296CB814B4B6819AE3B /* M13CheckboxAnimationPresets.swift */,
+				D01E62213F3C639112D46A157F17B63E /* M13CheckboxBounceManager.swift */,
+				46DA3FA1EC02A1FAA179F157551456F3 /* M13CheckboxDotManager.swift */,
+				0D84D552AB6BD3E2E370F8C78F41AF8B /* M13CheckboxDotPathPresets.swift */,
+				A669F19BDDE11C7AA1A835248602F551 /* M13CheckboxExpandManager.swift */,
+				408C86E94D18A8FD566B82ED0A39F659 /* M13CheckboxFadeManager.swift */,
+				4552A70DC5AD077AEACE78167ABEE376 /* M13CheckboxFillManager.swift */,
+				1E6A54E9B1EE689AD636AA21514C975C /* M13CheckboxFlatManager.swift */,
+				881859D5A1C012A3E4284B23ABACCB48 /* M13CheckboxGestureRecognizer.swift */,
+				92EB417991EAEA6055D39F5DA72B28E8 /* M13CheckboxManager.swift */,
+				0EEC685B2D3A46C148AB63D93407B1CC /* M13CheckboxPathPresets.swift */,
+				3AC9BB755D4806F5E83834A2B0341378 /* M13CheckboxSpiralManager.swift */,
+				A8D3282D53821674535D10AF81AEE1C7 /* M13CheckboxSpiralPathPresets.swift */,
+				3CD4F0083598B4EF5272DF279D27BEE0 /* M13CheckboxStrokeManager.swift */,
+				673F3AA7948AD3F00A3993B79EBD6A38 /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		C13DEB910670AAC6423A9D8572F28D9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09C78E0463B7416628836AF712094DCE /* Pods-NetSchool App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C20BDB9B86924B7A9C636F6996EB36E8 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				AC46749617731F387AE62D47B2D1D497 /* Reachability.swift */,
+				02F9E16604C478BD6E42BA044490BAC8 /* Support Files */,
+			);
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		C494D7680D293A255B5E8DEB306B6A23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967DC02F9C4CEB6957090CEBF95DD3A9 /* BTNavigationDropdownMenu */,
+				8788A9D0BEF4DAF1C6B037E33CEFC076 /* IGColorPicker */,
+				BC2839E0BFC52B1B53374BBBDE329F63 /* M13Checkbox */,
+				C20BDB9B86924B7A9C636F6996EB36E8 /* ReachabilitySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D09ADB16F5B1C83C5502CD9BFB613F77 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A74A8B9BA815B88EEE8E87A1E1A3222 /* CoreGraphics.framework */,
+				DF56D1B1D2EC80C9FB3789E8C5530E8A /* Foundation.framework */,
+				B6F2AEE821D00A7BA07B1A28F46E6522 /* SystemConfiguration.framework */,
+				4AD422DCE0E8E42CFB79C7FE153EDA1F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D72A386FAA5285B67E3D1D75B7C813E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				042950D40FEC2C02BC4C99058939144E /* BTNavigationDropdownMenu.modulemap */,
+				A3EDFF45F79CDE7A050C14DCCE2375C2 /* BTNavigationDropdownMenu.xcconfig */,
+				04881E05790A3C418A8000356E319B9C /* BTNavigationDropdownMenu-dummy.m */,
+				B129EB7855D175ABCD99761799972289 /* BTNavigationDropdownMenu-prefix.pch */,
+				F8B9B6582842F1818AF822234C7B99CF /* BTNavigationDropdownMenu-umbrella.h */,
+				4A193F3B8DCF7F6D5C6D7320F527361C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BTNavigationDropdownMenu";
+			sourceTree = "<group>";
+		};
+		E3FB04494F858A4311EF854B3F121B26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5440B6F7A08BDCC2CBA7370BACC982A0 /* IGColorPicker.modulemap */,
+				5583B5E601F51B95E6B558B1CC0520F9 /* IGColorPicker.xcconfig */,
+				B2A89E377C2B4E426DB2E6C78001D53D /* IGColorPicker-dummy.m */,
+				EC4D882D5A0C2EFB64B0B5F45B1908F2 /* IGColorPicker-prefix.pch */,
+				6C6A4AC1E0BEBEA9F431A6C9843001DD /* IGColorPicker-umbrella.h */,
+				100E2000C097A5F08D949556C34A2BC0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGColorPicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58C08131F18296A24380EFD469B31C53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2EAFB1DECEA8B441BEE295F82317D3 /* Pods-NetSchool App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80100C3EBABA663D0146653B530AC944 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E501ED9B0FC34A2A8F8B1AE20809D629 /* BTNavigationDropdownMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895FE68F96415049DDB86CFAAEB1A761 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07ADCEDE43C55ABE0385E5BF9A235B92 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B004927D06BD8EF4C7C4D3E05088D33A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E59EC0CBEADC0A4D96223F28C1A70FC /* IGColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49143AA3FFC39DA54015ECC43A2F0C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A580EB80800B878354E9A528D370A4F /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B1A0F4844C1634D8E66F44F6833325B /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A7717FB11EC9081E81A6D4E326A4A4 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				9AC8B6DB5022BF24EE59188338D603A0 /* Sources */,
+				49B5A66D3149FAA4FA9924C6CF70F674 /* Frameworks */,
+				895FE68F96415049DDB86CFAAEB1A761 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 0D1902D6191BA6FE08C345B82BB812EB /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46B77907E120F51E1B8C2D46E916B914 /* IGColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE3E1639F0BD7C1A96CC03578389BB8 /* Build configuration list for PBXNativeTarget "IGColorPicker" */;
+			buildPhases = (
+				03A5494E377BD370EAB984E8E088E00F /* Sources */,
+				3F47531D4C28F9744000CFB49CC5DB73 /* Frameworks */,
+				B004927D06BD8EF4C7C4D3E05088D33A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AB6EFD8610584BA8B270BBC51891BA8 /* PBXTargetDependency */,
+			);
+			name = IGColorPicker;
+			productName = IGColorPicker;
+			productReference = AE9EDA1366D0079C9171B98D27CF34D8 /* IGColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A52524E727A97710A55D0EDA55BB7CFE /* BTNavigationDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D90E5EB1444F3AFD9BA59CA5F757333 /* Build configuration list for PBXNativeTarget "BTNavigationDropdownMenu" */;
+			buildPhases = (
+				31A2C7D4F00C41B7050082322279F8F1 /* Sources */,
+				0FA28A4CC76082D6800F2919930F21B1 /* Frameworks */,
+				9E64531B46CFE89120AD1C1DA6FCFDF9 /* Resources */,
+				80100C3EBABA663D0146653B530AC944 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTNavigationDropdownMenu;
+			productName = BTNavigationDropdownMenu;
+			productReference = 145048B7E8E8F51E06F10091E0112CEA /* BTNavigationDropdownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7E87EDDEACDB74037E4A620E012AD45 /* Pods-NetSchool App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB27B7362F8E8B0E254DD7547F40679 /* Build configuration list for PBXNativeTarget "Pods-NetSchool App" */;
+			buildPhases = (
+				705D7E3480308048FE788AD863636FD5 /* Sources */,
+				EE110F6C6ADF745EA2FBEB55ECF12C6A /* Frameworks */,
+				58C08131F18296A24380EFD469B31C53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAE684694996512F2511F3036F58CB6 /* PBXTargetDependency */,
+				B61BB4BB7450A28D8157CBA67A66A542 /* PBXTargetDependency */,
+				28B2FC7967397B7473F042DAC770C6AB /* PBXTargetDependency */,
+				CAE48D72544698AB9B51BB7DCACEF8C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NetSchool App";
+			productName = "Pods-NetSchool App";
+			productReference = A40C15DB2CA63FB5941103BEF17E7CAF /* Pods_NetSchool_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4C08D0A7F8A32C63638D4CA11BD5EC2 /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 095FB803C962930A53BE6F37821CBA10 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				304CF95BC8055B7A5D8B331EEB77D4E7 /* Sources */,
+				82AAFAFF35A772B23FE3CEB045C05095 /* Frameworks */,
+				F49143AA3FFC39DA54015ECC43A2F0C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = BBC27B487359B2ED2C38692B49C82D0F /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4CF86D283B559D9617373B307BC6F27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A52524E727A97710A55D0EDA55BB7CFE /* BTNavigationDropdownMenu */,
+				46B77907E120F51E1B8C2D46E916B914 /* IGColorPicker */,
+				D4C08D0A7F8A32C63638D4CA11BD5EC2 /* M13Checkbox */,
+				B7E87EDDEACDB74037E4A620E012AD45 /* Pods-NetSchool App */,
+				1B1A0F4844C1634D8E66F44F6833325B /* ReachabilitySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E64531B46CFE89120AD1C1DA6FCFDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53FCA9CA383DA8F381865015170AFFF8 /* BTNavigationDropdownMenu.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A5494E377BD370EAB984E8E088E00F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E151091B6856A3A728D10538DCC38822 /* ColorPickerCell.swift in Sources */,
+				164492D90D9F4BE698B5560CC9D04BB0 /* ColorPickerView.swift in Sources */,
+				39A59D5F76BED95A273E2E86813243F9 /* ColorPickerViewDelegate.swift in Sources */,
+				B1A4E24A05CE05D078CA0B0CE021316C /* ColorPickerViewDelegateFlowLayout.swift in Sources */,
+				D58859EFC126DB34AD6C779DC15030A9 /* DefaultValues.swift in Sources */,
+				B1B7FB1D0F8853FFA6F58A3EF48B84AA /* IGColorPicker-dummy.m in Sources */,
+				5CB18F526AD963708B066C21C33EC968 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304CF95BC8055B7A5D8B331EEB77D4E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A444EA056771DFB434F47019B7169E /* M13Checkbox+IB.swift in Sources */,
+				08115A7F3FDF84EA3A2954F2F4D063D0 /* M13Checkbox-dummy.m in Sources */,
+				18AEB1A09B01663BB893C072B2C50C60 /* M13Checkbox.swift in Sources */,
+				0647EF168172677859E87CE3F7209BD6 /* M13CheckboxAnimationPresets.swift in Sources */,
+				CB596D795E073E32DBD933CD4A9FDE42 /* M13CheckboxBounceManager.swift in Sources */,
+				65D990980D4A1AF80E5763D9015CA7BF /* M13CheckboxDotManager.swift in Sources */,
+				9E48AA0C299274D6CC1CA38CE695816F /* M13CheckboxDotPathPresets.swift in Sources */,
+				AAFFC123F248BC70983512CA2FFD6CA8 /* M13CheckboxExpandManager.swift in Sources */,
+				09AD9729A5871E2CFFE9BF9AE7B0F503 /* M13CheckboxFadeManager.swift in Sources */,
+				B73AB7A869B2D7E8BF1D4A3F08B5610E /* M13CheckboxFillManager.swift in Sources */,
+				75DE514873086DCA9257007B102713F6 /* M13CheckboxFlatManager.swift in Sources */,
+				4DAD3B6DE49227EE1DE35925DB60C70A /* M13CheckboxGestureRecognizer.swift in Sources */,
+				C6A6896FC9F74490B86B69DAEC6B3467 /* M13CheckboxManager.swift in Sources */,
+				56BDE88D91B05CCBC797D858D55DB2AA /* M13CheckboxPathPresets.swift in Sources */,
+				A6CD284D762F2972162AB3CD8199D0F3 /* M13CheckboxSpiralManager.swift in Sources */,
+				E518CAF13736E9F68DFC2FB8251CCBD2 /* M13CheckboxSpiralPathPresets.swift in Sources */,
+				1C84DB4C076B1F7CE00C4E1C575B9E78 /* M13CheckboxStrokeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31A2C7D4F00C41B7050082322279F8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52933055CBE7B3EA7B1FE33D401CD13D /* BTNavigationDropdownMenu-dummy.m in Sources */,
+				B3AAE6FDD1C94A708CC3B5041BDB5A27 /* BTNavigationDropdownMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705D7E3480308048FE788AD863636FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2EB92C4A08A263D460F8F8E9FCEB56 /* Pods-NetSchool App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC8B6DB5022BF24EE59188338D603A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9F432EC49D1490D1C464767FD6C4FE /* Reachability.swift in Sources */,
+				59B2D69FEB598EE4BC4B2E4C66411C68 /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28B2FC7967397B7473F042DAC770C6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = D4C08D0A7F8A32C63638D4CA11BD5EC2 /* M13Checkbox */;
+			targetProxy = 19AE578FCF29E74277797B2F1C93ED43 /* PBXContainerItemProxy */;
+		};
+		3CAE684694996512F2511F3036F58CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTNavigationDropdownMenu;
+			target = A52524E727A97710A55D0EDA55BB7CFE /* BTNavigationDropdownMenu */;
+			targetProxy = 592CB02FFA5249F967E14CE1261435AF /* PBXContainerItemProxy */;
+		};
+		9AB6EFD8610584BA8B270BBC51891BA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = D4C08D0A7F8A32C63638D4CA11BD5EC2 /* M13Checkbox */;
+			targetProxy = 69B63D610FD204315A4F995AA2DE4E7A /* PBXContainerItemProxy */;
+		};
+		B61BB4BB7450A28D8157CBA67A66A542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGColorPicker;
+			target = 46B77907E120F51E1B8C2D46E916B914 /* IGColorPicker */;
+			targetProxy = A830D1CB699EC3039C694519864E88BC /* PBXContainerItemProxy */;
+		};
+		CAE48D72544698AB9B51BB7DCACEF8C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 1B1A0F4844C1634D8E66F44F6833325B /* ReachabilitySwift */;
+			targetProxy = F4629611AB3F185420970EEB37D465E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1FC9EF76625C2A42EBDA48AAC641A3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7871C14A289DDA3FF9D203C0C2CE558 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		511251315F6FF7DBFC2356E3B0CF75F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F292F03578EC2AD7BAD8ECBDFE72E63B /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		585257927E4A14554BC858E71D7DE698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7871C14A289DDA3FF9D203C0C2CE558 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77835EA3D32CA18F0BF0B624A31BF1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2983EB6D930AEEBD20F279FC22BAEA49 /* Pods-NetSchool App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NetSchool App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NetSchool App/Pods-NetSchool App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7872955F7DDB6FE3FF1AFCB75FE8EDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3EDFF45F79CDE7A050C14DCCE2375C2 /* BTNavigationDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTNavigationDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu.modulemap";
+				PRODUCT_MODULE_NAME = BTNavigationDropdownMenu;
+				PRODUCT_NAME = BTNavigationDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C1324FF61B84E51924C98D729007217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F292F03578EC2AD7BAD8ECBDFE72E63B /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A666D9B9CE7C75E969BBC36C2719EB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3EDFF45F79CDE7A050C14DCCE2375C2 /* BTNavigationDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTNavigationDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTNavigationDropdownMenu/BTNavigationDropdownMenu.modulemap";
+				PRODUCT_MODULE_NAME = BTNavigationDropdownMenu;
+				PRODUCT_NAME = BTNavigationDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD407852F0DB93F1E4DF31D35D7C5928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 390F8FA6BDCB23A0F0730B3C61DFEE98 /* Pods-NetSchool App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NetSchool App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NetSchool App/Pods-NetSchool App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4E462E89FE74A058EDCD1D9BD09869B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5583B5E601F51B95E6B558B1CC0520F9 /* IGColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGColorPicker/IGColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGColorPicker/IGColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = IGColorPicker;
+				PRODUCT_NAME = IGColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F728DD2CB9412581B58C0B590FA6EF5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5583B5E601F51B95E6B558B1CC0520F9 /* IGColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGColorPicker/IGColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IGColorPicker/IGColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = IGColorPicker;
+				PRODUCT_NAME = IGColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		095FB803C962930A53BE6F37821CBA10 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1324FF61B84E51924C98D729007217 /* Debug */,
+				511251315F6FF7DBFC2356E3B0CF75F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D90E5EB1444F3AFD9BA59CA5F757333 /* Build configuration list for PBXNativeTarget "BTNavigationDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7872955F7DDB6FE3FF1AFCB75FE8EDD3 /* Debug */,
+				A666D9B9CE7C75E969BBC36C2719EB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB27B7362F8E8B0E254DD7547F40679 /* Build configuration list for PBXNativeTarget "Pods-NetSchool App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD407852F0DB93F1E4DF31D35D7C5928 /* Debug */,
+				77835EA3D32CA18F0BF0B624A31BF1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE3E1639F0BD7C1A96CC03578389BB8 /* Build configuration list for PBXNativeTarget "IGColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4E462E89FE74A058EDCD1D9BD09869B /* Debug */,
+				F728DD2CB9412581B58C0B590FA6EF5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A7717FB11EC9081E81A6D4E326A4A4 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585257927E4A14554BC858E71D7DE698 /* Debug */,
+				1FC9EF76625C2A42EBDA48AAC641A3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
